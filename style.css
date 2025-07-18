@@ -4,6 +4,7 @@
 
 body {
     background-color: #799EFF;
+    overflow: hidden;
 }
 
 .card {
