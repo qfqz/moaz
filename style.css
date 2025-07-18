@@ -51,14 +51,21 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        flex-direction: column;
+    }
+
     .card {
-        padding: 30px 20px;
+        padding: 30px 15px;
+        width: 100%;
     }
 
     .card img {
-        height: 160px;
-        width: 160px;
+        height: 150px;
+        width: 150px;
+        border-width: 4px;
     }
 
     .card a {
@@ -67,6 +74,6 @@ body {
     }
 
     .card p {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
